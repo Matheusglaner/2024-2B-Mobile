@@ -1,0 +1,13 @@
+@import url("rest.css");
+
+   :root{
+
+ --cor-de-fundo: #3b6ed4;
+}
+    body {
+  background-color:var (--cor-de-fundo);
+
+
+
+
+    }S
