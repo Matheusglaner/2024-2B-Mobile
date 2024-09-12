@@ -9,34 +9,33 @@
 }
 
     .cabecalho{
-
-     background-color: rgb(255, 240, 240);
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     position: relative;
+         background-color: #ae0000;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         position: relative;
     }
 
     .caixa{
-
- display: flex;
-align-items: center;
-    }
+      display: flex;
+         align-items: center;
+     }
 
     .caixa__img {
- padding: 1em;
-  }
+        padding: 1em;
+     }
 
     .lista-menu {
         display: none;
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+   
     }
-    .caixa__botao:
+.caixa__botao:checked~.lista-menu{
+        display: block;
+}
 
 
-
-
-
-
-
-
+s
 
